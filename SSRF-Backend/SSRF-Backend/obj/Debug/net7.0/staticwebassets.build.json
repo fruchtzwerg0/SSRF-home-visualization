@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3fWzL3M1ZgoSZAMXLCaAwpRfL6oPDXJ6ZdNNeXOTFlw=",
+  "Source": "SSRF-Backend",
+  "BasePath": "_content/SSRF-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
