@@ -1,0 +1,15 @@
+<!-- history.component.html -->
+<div class="dashboard-container">
+    <mat-card class="dashboard-card">
+      <h2>History/Log</h2>
+  
+      <ul class="activity-list">
+        <li *ngFor="let activity of activities" class="activity-item">
+          {{ activity.timestamp | date }} - {{ activity.description }}
+        </li>
+      </ul>
+  
+      <button mat-raised-button color="primary" (click)="goBack()">Go Back</button>
+    </mat-card>
+  </div>
+  

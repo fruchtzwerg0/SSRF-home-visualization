@@ -1,0 +1,45 @@
+<div class="configuration-container">
+    <mat-card class="configuration-card">
+      <h2>Configuration</h2>
+  
+      <!-- For Administrators -->
+      <div *ngIf="isAdmin" class="admin-configuration">
+        <h3>Interface Configuration (Admin)</h3>
+  
+        <p>Labels for Sensors:</p>
+        <ul>
+          <li>
+            Sensor 1: <input type="text" id="sensor1Label" class="config-input">
+          </li>
+          <li>
+            Sensor 2: <input type="text" id="sensor2Label" class="config-input">
+          </li>
+          <li>
+            Sensor 3: <input type="text" id="sensor3Label" class="config-input">
+          </li>
+        </ul>
+  
+        <p>Labels for Actors:</p>
+        <ul>
+          <li>
+            Actor 1: <input type="text" id="actor1Label" class="config-input">
+          </li>
+          <li>
+            Actor 2: <input type="text" id="actor2Label" class="config-input">
+          </li>
+          <li>
+            Actor 3: <input type="text" id="actor3Label" class="config-input">
+          </li>
+        </ul>
+      </div>
+  
+      <!-- For Normal Users -->
+      <div *ngIf="!isAdmin" class="user-profile">
+        <h3>User Profile (Normal User)</h3>
+        <p>Name: {{ username }}</p>
+      </div>
+  
+      <button (click)="goBack()">Go Back</button>
+    </mat-card>
+  </div>
+  

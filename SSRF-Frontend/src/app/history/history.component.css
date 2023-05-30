@@ -1,0 +1,39 @@
+/* styles.css (or a separate CSS file) */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .dashboard-card {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .activity-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activity-item {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

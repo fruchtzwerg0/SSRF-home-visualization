@@ -1,0 +1,29 @@
+<!-- dashboard.component.html -->
+<div class="dashboard-container">
+    <h2 class="dashboard-title">Welcome to the Dashboard</h2>
+    <div class="slider-container">
+        <div class="slider-label">Set Temperature</div>
+        <mat-slider class="dashboard-slider" thumbLabel min="0" max="100" (change)="setTemperature($event)"></mat-slider>
+      </div>
+    
+      <div class="slider-container">
+        <div class="slider-label">Set Light</div>
+        <mat-slider class="dashboard-slider" thumbLabel min="0" max="100" (change)="setLight($event)"></mat-slider>
+      </div>
+    
+      <div class="slider-container">
+        <div class="slider-label">Set Refrigerator Temperature</div>
+        <mat-slider class="dashboard-slider" thumbLabel min="-10" max="10" (change)="setRefrigeratorTemperature($event)"></mat-slider>
+      </div>
+  
+    <button class="dashboard-button" (click)="getTemperature()">Get Temperature</button>
+    <button class="dashboard-button" (click)="getLight()">Get Light</button>
+    <button class="dashboard-button" (click)="getRefrigeratorTemperature()">Get Refrigerator Temperature</button>
+  
+    <!-- Logout button -->
+    <button class="dashboard-button" (click)="logout()">Logout</button>
+    <button class="dashboard-button" (click)="goToHistory()">View History</button>
+    <button class="dashboard-button" (click)="goToConfiguration()">Configuration</button>
+    <app-weather></app-weather>
+  </div>
+  
