@@ -40,22 +40,6 @@ app.Map("/internal", app =>
         await context.Response.WriteAsync("Oh no, you found secret data");
     });
 });
-/*
-app.MapPost("/weatherapi", async (HttpContext context, IHttpClientFactory httpClientFactory) =>
-{
-    var httpClient = httpClientFactory.CreateClient();
-
-    // Make an internal request to the /internal endpoint
-    var response = await httpClient.GetAsync("http://localhost/internal");
-
-    // Read the response from the internal endpoint
-    var content = await response.Content.ReadAsStringAsync();
-
-    // Return the response from the internal endpoint
-    context.Response.ContentType = "text/plain";
-    await context.Response.WriteAsync(content);
-});
-*/
 
 app.MapPost("/weatherapi", async (HttpContext context) =>
 {

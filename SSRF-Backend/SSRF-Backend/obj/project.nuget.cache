@@ -1,17 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LnLRdYNuGkc6pFuog6WSlyDhuyxGAe+/THzlkafnngGDaVa3234Nn7uSYzWFNtekqPj3N3g2sJcel3Reo+w12w==",
+  "dgSpecHash": "ePMyo7J7yIh/PXhx5ONhqUodGdSmK5QWfgRz4tjajTp7soKSbNZ2nXumPYl7NrqgKEor1ofXq5DShv+yJqn3ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\SSRF-Backend.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\122833\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\122833\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
