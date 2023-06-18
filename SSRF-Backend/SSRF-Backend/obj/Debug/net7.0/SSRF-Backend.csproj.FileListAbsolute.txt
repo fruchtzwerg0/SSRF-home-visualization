@@ -1,34 +1,70 @@
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\appsettings.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\SSRF-Backend.exe
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\SSRF-Backend.deps.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\SSRF-Backend.runtimeconfig.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\SSRF-Backend.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\SSRF-Backend.pdb
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.csproj.AssemblyReference.cache
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.AssemblyInfoInputs.cache
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.AssemblyInfo.cs
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.csproj.CoreCompileInputs.cache
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets\msbuild.SSRF-Backend.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets\msbuild.build.SSRF-Backend.props
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SSRF-Backend.props
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SSRF-Backend.props
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\scopedcss\bundle\SSRF-Backend.styles.css
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.csproj.CopyComplete
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\refint\SSRF-Backend.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.pdb
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\SSRF-Backend.genruntimeconfig.cache
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\obj\Debug\net7.0\ref\SSRF-Backend.dll
-C:\Users\122833\Documents\4. Semester\ssrf\SSRF-Backend\SSRF-Backend\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/appsettings.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.exe
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.deps.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.runtimeconfig.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.pdb
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.csproj.AssemblyReference.cache
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.AssemblyInfoInputs.cache
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.AssemblyInfo.cs
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.csproj.CoreCompileInputs.cache
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.SSRF-Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.build.SSRF-Backend.props
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.SSRF-Backend.props
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.SSRF-Backend.props
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/scopedcss/bundle/SSRF-Backend.styles.css
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.csproj.CopyComplete
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/refint/SSRF-Backend.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.pdb
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.genruntimeconfig.cache
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/ref/SSRF-Backend.dll
+C:/Users/122833/Documents/4. Semester/ssrf/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/appsettings.Development.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/appsettings.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.deps.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.runtimeconfig.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/SSRF-Backend.pdb
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.csproj.AssemblyReference.cache
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.AssemblyInfoInputs.cache
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.AssemblyInfo.cs
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.csproj.CoreCompileInputs.cache
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.MvcApplicationPartsAssemblyInfo.cs
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.MvcApplicationPartsAssemblyInfo.cache
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.SSRF-Backend.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.build.SSRF-Backend.props
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.SSRF-Backend.props
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.SSRF-Backend.props
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets.build.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/staticwebassets.development.json
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/scopedcss/bundle/SSRF-Backend.styles.css
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.csproj.CopyComplete
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/refint/SSRF-Backend.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.pdb
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/SSRF-Backend.genruntimeconfig.cache
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/Debug/net7.0/ref/SSRF-Backend.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/AntiXssLibrary.dll
+/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/bin/Debug/net7.0/HtmlSanitizationLibrary.dll

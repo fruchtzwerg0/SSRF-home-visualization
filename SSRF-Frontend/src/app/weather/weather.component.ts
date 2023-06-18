@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
+
+// Add http options for API CALL
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+};
 
 @Component({
   selector: 'app-weather',
@@ -7,6 +13,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./weather.component.css']
 })
 export class WeatherComponent {
+
   weatherApiUrl: string = '';
   weatherData: any;
 
@@ -15,9 +22,10 @@ export class WeatherComponent {
   getWeatherData() {
     // Make a POST request to the server API
     const url = 'https://localhost:7001/weatherapi';
+
     const payload = { url: this.weatherApiUrl };
 
-    this.http.post(url, payload).subscribe(
+    this.http.post(url, payload, httpOptions).subscribe(
       (response) => {
         console.log('Weather API URL saved successfully.');
         this.weatherData = JSON.stringify(response);

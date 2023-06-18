@@ -6,6 +6,12 @@ using Microsoft.Extensions.Hosting;
 using System.Net.Http;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using SSRF_Backend.Extensions;
+using Microsoft.Security.Application;
+using System;
+using SSRF_Backend.Services;
+using SSRF_Backend.Models.Options;
+using System.Runtime.Intrinsics.Arm;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,42 +27,95 @@ builder.Services.AddScoped<IUrlHelper>(sp =>
     return factory.GetUrlHelper(actionContext);
 });
 
+var CoreConfig = "_myAllowSpecificOrigins";
+
+// Represents the Url state
+var isUrlAllowed = true;
+
 builder.Services.AddCors(options =>
 {
+    /*
     options.AddDefaultPolicy(builder =>
     {
         builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
     });
+    */
+
+    // Add a specified CORE policy!
+    options.AddPolicy(name: CoreConfig,
+                          policy =>
+                          {
+                              policy.WithOrigins("https://localhost:4200");
+                              policy.WithOrigins("http://localhost:4200");
+                              policy.AllowAnyMethod();
+                              policy.AllowAnyHeader();
+                          });
 });
+
+// Get options
+var urlOptions = builder.Configuration.GetSection("NotAllowedUrls").Get<List<string>>();
+
+builder.Services.Configure<UrlOptions>(options =>
+{
+    options.NotAllowedUrls = urlOptions;
+});
+
+// Services
+builder.Services.AddSingleton<ICommonService, CommonService>();
 
 var app = builder.Build();
 
-app.UseCors();
+
+app.UseCors(CoreConfig);
+
 
 app.Map("/internal", app =>
 {
     app.Run(async context =>
     {
-        await context.Response.WriteAsync("Oh no, you found secret data");
+        // Check if url is allowed
+        if (!isUrlAllowed)
+        {
+            context.Response.StatusCode = StatusCodes.Status400BadRequest;
+        }
+        else
+        {
+            await context.Response.WriteAsync("Oh no, you found secret data");
+        }
     });
 });
+
 
 app.MapPost("/weatherapi", async (HttpContext context) =>
 {
     // Read the request body
     var requestBody = await context.Request.ReadFromJsonAsync<WeatherApiUrl>();
-    // Retrieve IHttpClientFactory from the request services
-    var httpClientFactory = context.RequestServices.GetRequiredService<IHttpClientFactory>();
 
-    var httpClient = httpClientFactory.CreateClient();
-    // Process the request body or perform desired actions
-    var response = await httpClient.GetAsync(requestBody.Url);
-    var content = await response.Content.ReadAsStringAsync();
-    //context.Response.ContentType = "text/plain";
+    isUrlAllowed = requestBody!.Url.CheckIfUrlIsValid(urlOptions!);
 
-    // Return a response
-    context.Response.StatusCode = StatusCodes.Status200OK;
-    await context.Response.WriteAsync(content);
+    // Check if Url is allowed
+    if (!isUrlAllowed)
+    {
+        context.Response.StatusCode = StatusCodes.Status400BadRequest;
+    }
+    else
+    {
+        // Represents the safe url 
+        var safeUrl = requestBody!.Url.RemoveDiacritics();
+
+        // Retrieve IHttpClientFactory from the request services
+        var httpClientFactory = context.RequestServices.GetRequiredService<IHttpClientFactory>();
+
+        var httpClient = httpClientFactory.CreateClient();
+        // Process the request body or perform desired actions
+        var response = await httpClient.GetAsync(safeUrl);
+        var content = await response.Content.ReadAsStringAsync();
+        //context.Response.ContentType = "text/plain";
+
+        // Return a response
+        context.Response.StatusCode = StatusCodes.Status200OK;
+        await context.Response.WriteAsync(content);
+    }
 });
 
 int currTemperature = 18;

@@ -8,12 +8,25 @@
     ".NETCoreApp,Version=v7.0": {
       "SSRF-Backend/1.0.0": {
         "dependencies": {
+          "AntiXSS": "4.3.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.5",
           "Newtonsoft.Json": "13.0.3",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "SSRF-Backend.dll": {}
+        }
+      },
+      "AntiXSS/4.3.0": {
+        "runtime": {
+          "lib/net40/AntiXssLibrary.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net40/HtmlSanitizationLibrary.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.OpenApi/7.0.5": {
@@ -89,6 +102,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AntiXSS/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NDEKu4wmQ109bbreNetddmufZU6gPDhVKqX+FqGiMylektPOQB+lPTtuZre41tcDLGHG7ju8z0PPZubrv4z9QQ==",
+      "path": "antixss/4.3.0",
+      "hashPath": "antixss.4.3.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.5": {
       "type": "package",
