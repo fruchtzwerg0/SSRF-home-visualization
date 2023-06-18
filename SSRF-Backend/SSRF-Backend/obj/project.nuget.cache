@@ -1,8 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "ePMyo7J7yIh/PXhx5ONhqUodGdSmK5QWfgRz4tjajTp7soKSbNZ2nXumPYl7NrqgKEor1ofXq5DShv+yJqn3ew==",
+  "dgSpecHash": "zmNjwknYkGSbuXRRJDEBSYy1EBFh5lj6c9phQig0j06YWLby8umPJDu3NkLImMjgl2Gz3mJ/fIE++py7dDCMZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\SSRF-Backend.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/SSRF-Backend.csproj",
+  "expectedPackageFiles": [
+    "/Users/michaelfuby/.nuget/packages/antixss/4.3.0/antixss.4.3.0.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/michaelfuby/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AntiXSS 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AntiXSS",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

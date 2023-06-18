@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\SSRF-Backend.csproj": {}
+    "/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/SSRF-Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\SSRF-Backend.csproj": {
+    "/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/SSRF-Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\SSRF-Backend.csproj",
+        "projectUniqueName": "/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/SSRF-Backend.csproj",
         "projectName": "SSRF-Backend",
-        "projectPath": "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\SSRF-Backend.csproj",
-        "packagesPath": "C:\\Users\\122833\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\122833\\Documents\\4. Semester\\ssrf\\SSRF-Backend\\SSRF-Backend\\obj\\",
+        "projectPath": "/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/SSRF-Backend.csproj",
+        "packagesPath": "/Users/michaelfuby/.nuget/packages/",
+        "outputPath": "/Users/michaelfuby/Library/Mobile Documents/com~apple~CloudDocs/Documents/FH/4 Semester/IT-Sicherheit/Übung/Aufgabe 2/SSRF-home-visualization/SSRF-Backend/SSRF-Backend/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\122833\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/michaelfuby/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,17 +37,44 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AntiXSS": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
